@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+
 export const metadata: Metadata = {
   title: 'Portal RH',
   openGraph:{
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 export default function Home () {
   return (
     <div>
-      Portal RH
+      <h1>Portal RH</h1>
     </div>
   )
 }
